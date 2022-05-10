@@ -1,116 +1,687 @@
-.container {
-  padding: 0 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Hind+Vadodara&family=Ubuntu:wght@300&display=swap');
+
+.nav_container {
+  /* border: 2px solid red; */
+  height: 5pc;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.nav_container_ul {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 }
 
-.footer {
+.nav_container_ul li {
+  list-style: none;
+  margin-left: 20px;
+  cursor: default;
+  margin-top: 8px;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+.nav_container_ul li:hover {
+  /* border-bottom: 3px solid  #05C19C; */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav_container_head {
+  font-family: 'Dancing Script', cursive;
+  margin-left: 140px;
+  margin-top: -7px;
+  font-size: 35px;
+  cursor: default;
+}
+
+.egg_1 {
+  margin-left: 30%;
+  margin-top: -10px;
+  display: block;
+  width: 45px;
+  height: 60px;
+  border: 2px solid gray;
+  /* background-color: ; */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.egg_1_icon {
+  margin-left: 10px;
+  margin-top: 14px;
+  cursor: default;
+  font-size: 30px;
+}
+
+.egg_1_icon:hover {
+  font-size: 33px;
+  cursor: pointer;
+}
+
+.egg_2 {
+  margin-left: 10px;
+  margin-top: -10px;
+  display: block;
+  width: 45px;
+  height: 60px;
+  border: 2px solid gray;
+  /* background-color: ; */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.egg_2_icon {
+  margin-left: 8px;
+  margin-top: 14px;
+  cursor: default;
+  font-size: 27px;
+}
+
+.egg_2_icon:hover {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.egg_3 {
+  margin-left: 10px;
+  margin-top: -10px;
+  display: block;
+  width: 45px;
+  height: 60px;
+  border: 2px solid gray;
+  /* background-color: ; */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.egg_3_icon {
+  margin-left: 8px;
+  margin-top: 14px;
+  cursor: default;
+  font-size: 30px;
+}
+
+.egg_3_icon:hover {
+  font-size: 33px;
+  cursor: pointer;
+}
+
+/* Main Container */
+
+.container_1 {
+  /* border: 2px solid black; */
+  height: 35pc;
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.container_1_subcontainer_1 {
+  /* border: 2px solid rebeccapurple; */
+  width: 50%;
+  height: 33pc;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.container_1_subcontainer_2 {
+  /* border: 2px solid rgb(52, 7, 255); */
+  width: 50%;
+  height: 33pc;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.tv {
+  position: relative;
+  width: 421px;
+  height: 233px;
+  margin: 14% 21%;
+  border: 2px solid #05C19C;
+  background: #05C19C;
+  border-radius: 50% / 10%;
+  color: white;
   text-align: center;
+  text-indent: 0.1em;
+  transform: rotate(-35deg);
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.tv:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.img_1 {
+  cursor: default;
+  transform: rotate(35deg);
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.egg {
+  display: block;
+  width: 401px;
+  position: absolute;
+  height: 565px;
+  margin-left: 15%;
+  margin-top: -108px;
+  transform: rotate(15deg);
+  background-color: rgba(5, 193, 156, 0.2);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  cursor: default;
+
+}
+
+.head_1 {
+
+  width: 498px;
+  height: 261px;
+  margin-left: 20px;
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 87px;
+  line-height: 99.8%;
+  letter-spacing: -0.01em;
+  cursor: default;
+}
+
+.head_2 {
+  margin-left: 20px;
+  margin-top: -220px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 57px;
+  font-family: 'Hind Vadodara';
+  line-height: 99.8%;
+  letter-spacing: -0.01em;
+  cursor: default;
+}
+
+.head_3 {
+  margin-left: 20px;
+  margin-top: -25px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 57px;
+  line-height: 99.8%;
+  letter-spacing: -0.01em;
+  font-family: 'Hind Vadodara';
+  border-bottom: 6px solid #05C19C;
+  width: 30%;
+  cursor: default;
+}
+
+.para_1 {
+  font-family: 'Hind Vadodara';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 146.3%;
+  letter-spacing: 0.02em;
+  color: rgba(51, 27, 59, 0.66);
+  margin-left: 20px;
+  cursor: default;
+}
+
+.btn_1 {
+  padding: 19px 45px;
+  background: #331B3B;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+/* Slider Container */
+
+.container_2 {
+  width: 1200px;
+  height: 450px;
+  background: #65FBD2;
+  border-radius: 0px 400px 0px 0px;
 }
 
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+  /* border: 2px solid blue; */
+  margin-left: 20px;
+  width: 308px;
+  height: 225px;
+  background-color: white;
+  border-radius: 16px;
+
+}
+
+.card_head {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 137.3%;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  color: #331B3B;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.card_para {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 145.3%;
+  letter-spacing: 0.02em;
+  color: rgba(51, 27, 59, 0.66);
+  width: 275px;
+  height: 82px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.card_icon_container {
+  /* border: 2px solid black; */
+  width: 52px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFEED4;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  position: absolute;
+  margin: 15px 30px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.card_icon {
+  font-size: 25px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+
+.container_2_subordinate {
+  /* border: 2px solid red; */
+  margin-top: -340px;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+/* Section_3 */
+
+.container_3 {
+  /* border: 2px solid black; */
+  margin-top: 100px;
+  display: flex;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.container_3_subcontainer_1 {
+  /* border: 2px solid green; */
+  height: 40pc;
+  width: 50%;
+
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.container_3_subcontainer_2 {
+  /* border: 2px solid red; */
+  height: 40pc;
+  width: 50%;
+}
+
+.container_3_subcontainer_1_egg {
+  display: block;
+  z-index: 1;
+  width: 369px;
+  height: 485px;
+  margin: 56px 69px;
+  background-color: #05C19C;
+  transform: rotate(-30deg);
+  /* position: absolute; */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.container_3_subcontainer_1_img {
+  transform: rotate(30deg);
+  position: absolute;
+  /* border: 2px solid black; */
+  margin: 30px -43px;
+  margin-top: 88px;
+  z-index: 1;
+}
+
+.container_3_subcontainer_1_img_3 {
+  width: 209%;
+  margin-left: -263px;
+  position: absolute;
+  top: 42%;
+  transform: rotate(144deg);
+}
+
+.container_3_subcontainer_2_head_1 {
+  cursor: default;
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 106.3%;
+  letter-spacing: -0.01em;
+  color: #331B3B;
+  margin: 90px 70px;
+}
+
+.container_3_subcontainer_2_head_2 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 106.3%;
+  letter-spacing: -0.01em;
+  color: #331B3B;
+  cursor: default;
+  margin: -70px 70px;
+}
+
+.container_3_subcontainer_2_para_1 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 146.3%;
+  letter-spacing: 0.02em;
+  color: rgba(51, 27, 59, 0.66);
+  cursor: default;
+  margin: 125px 70px;
+}
+
+.container_3_subcontainer_2_para_2 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 146.3%;
+  letter-spacing: 0.02em;
+  color: rgba(51, 27, 59, 0.66);
+  cursor: default;
+  margin: -110px 70px;
+}
+
+.btn_2 {
+  padding: 19px 45px;
+  background: #331B3B;
+  border-radius: 10px;
+  margin: 160px 70px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+/* Section_4 */
+
+.container_4 {
+  width: 1200px;
+  height: 520px;
+  margin: 0px 150px;
+  background: rgba(255, 222, 212, 0.3);
+  border-radius: 0px 400px 0px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.container_4_head_1 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 106.3%;
+  letter-spacing: -0.01em;
+  color: #331B3B;
+  cursor: default;
+  margin: -33% 51px;
+  position: absolute;
+}
+
+.container_4_head_2 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 106.3%;
+  letter-spacing: -0.01em;
+  color: #331B3B;
+  cursor: default;
+  margin: -28% 51px;
+  position: absolute;
+}
+
+.container_4_para {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #331B3B;
+  cursor: default;
+  position: absolute;
+  width: 515px;
+  height: 82px;
+  margin: -31% 60%;
+}
+
+.container_4_slider {
+  margin: -301px 250px;
+  width: 85%;
+}
+
+/* Section_5 */
+
+.container_5 {
+  /* border: 2px solid black; */
+  margin-top: 30%;
+}
+
+.container_5_head_1 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110.8%;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #331B3B;
+}
+
+.container_5_head_2 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 110.8%;
+  /* or 53px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #331B3B;
+}
+
+/* .container_5_slider {
+
+} */
+
+.Carousel_5 {
+  /* border: 2px solid black; */
+  width: 100%;
+  cursor: pointer;
+}
+
+
+.card_5 {
+  /* border: 2px solid blue; */
+  margin-left: 0px;
+  width: 448px;
+  height: 410px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+
+}
+
+.card_head_5 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 137.3%;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  color: #331B3B;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.card_para_5 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 145.3%;
+  letter-spacing: 0.02em;
+  color: rgba(51, 27, 59, 0.66);
+  width: 275px;
+  height: 82px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.card_icon_container_5 {
+  /* border: 2px solid black; */
+  width: 72px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(5, 193, 156, 0.2);
+  border-radius: 10px;
+  position: absolute;
+  margin: 15px 30px;
+}
+
+.card_icon_5 {
+  font-size: 45px;
+}
+
+.card_dash_5 {
+  border: 3px solid #05C19C;
+  width: 17px;
+  height: 0px;
+  margin: 73% 30px;
+  position: absolute;
+}
+
+.card_author {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 159.3%;
+  /* or 25px */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+  width: 57px;
+  height: 25px;
+  position: absolute;
+  margin: 71% 60px;
+}
+
+
+/* Footer */
+
+.container_6 {
+  margin-top: 80px;
+  width: 1350px;
+  height: 453px;
+  background: #000000;
+  border-radius: 0px 158px 0px 0px;
+  display: flex;
+}
+
+.container_6_subcontainer_1 {
+  /* border: 2px solid green; */
+  /* height: 20pc; */
+  width: 50%;
+}
+
+.container_6_subcontainer_2 {
+  /* border: 2px solid red; */
+  /* height: 20pc; */
+  width: 50%;
+}
+
+.container_6_map {
+
+  width: 78%;
+  height: 24pc;
+  margin: 38px 52px;
+  border-radius: 7px;
+  box-shadow: 2px 1px 6px gray;
+
+}
+
+.container_6_subcontainer_1_head {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: #FFFFFF;
+  cursor: default;
+  margin: 90px 70px;
+}
+
+.container_6_subcontainer_1_para {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.3%;
+  letter-spacing: 0.02em;
+  margin: -70px 70px;
+  color: #FFFFFF;
+  cursor: default;
+}
+
+.container_6_subcontainer_1_para_1 {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.3%;
+  letter-spacing: 0.02em;
+  margin: 90px 70px;
+  color: #FFFFFF;
+  cursor: default;
+}
+
+.container_6_input {
+  margin: -75px 70px;
+}
+
+
+.container_6_inputF {
+  border: 1px solid #FFFFFF;
+  width: 263px;
+height: 48px;
+
+}
+
+.container_6_btn{
+  background: #FFFFFF;
+border: 1px solid #FFFFFF;
+width: 143px;
+height: 52px;
+border: 2px solid black;
+}
+
+.container_6_btn:hover{
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+  box-shadow: 2px 1px 6px grey;
+  border: none;
+  height: 48px;
 }
